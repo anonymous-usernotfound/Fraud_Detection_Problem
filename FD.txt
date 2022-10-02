@@ -1,4 +1,3 @@
-#!/bin/python3
 
 import math
 import os
@@ -6,15 +5,7 @@ import random
 import re
 import sys
 import bisect
-# Complete the activityNotifications function below.
-#def activityNotifications(expenditure, d):
- #   count = 0
-  #  n=len(expenditure)
-   # for i in range(0,n-d):
-    #    med = median(expenditure[i:d+i])
-     #   if expenditure[d+i] >= med*2:
-      #      count +=1
-    #return count
+
 def med(arr,d,m):
     if d%2 == 0:
         
